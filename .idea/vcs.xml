@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/dashboardanalytics" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/dashboardbrand" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/dashboardstore" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/sekellogger" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/storetodoorapi" vcs="Git" />
+  </component>
+</project>

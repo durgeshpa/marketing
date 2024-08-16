@@ -1,0 +1,38 @@
+diff --git a/api/models.py b/api/models.py
+index 90952f91..019cb1c2 100644
+--- a/api/models.py
++++ b/api/models.py
+@@ -1289,7 +1289,7 @@ class SentimentsAnalytics(models.Model):
+     updated_at = models.DateTimeField(auto_now=True)
+
+     class Meta:
+-        db_table = u'"stores\".\"api_sentimentanalytics"'
++        db_table = u'"stores\".\"api_sentimentsanalytics"'
+         unique_together = ('entity_id', 'entity_type', 'brand_id')
+
+     def __str__(self):
+@@ -1898,7 +1898,7 @@ class CampaignSocialListing(models.Model):
+     updated_at = models.DateTimeField(auto_now=True)
+
+     class Meta:
+-        db_table = u'"campaigns\".\"api_campaignssociallisting"'
++        db_table = u'"campaigns\".\"api_campaignsociallisting"'
+
+     def __str__(self):
+         """Return a human-readable representation of the model instance."""
+@@ -2011,7 +2011,7 @@ class UnsubscribedEmailUsers(models.Model):
+     updated_at = models.DateTimeField(auto_now=True)
+
+     class Meta:
+-        db_table = u'"leads\".\"api_unsubscibedemailusers"'
++        db_table = u'"leads\".\"api_unsubscribedemailusers"'
+
+     def __str__(self):
+         return "{}".format(self.id)
+@@ -2560,4 +2560,4 @@ class WhatsappLeadCount(models.Model):
+             models.Index(fields=['store']),
+             models.Index(fields=['lead_date']),
+             models.Index(fields=['action']),
+-        ]
+\ No newline at end of file
++        ]

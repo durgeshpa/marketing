@@ -1,0 +1,16 @@
+
+Env Name	Username	Creadential
+dashboard-analytics-migrated	postgres	kSdplN4XAipTJl4efX9B
+dashboard-brand-migrated	postgres	CpsaRUg02LPdPdab5l5L
+dashboard-store-new-migrated	postgres	AfVo5uU6Z4thNNRpu84m
+store-to-door-migrated	postgres	cI3hP9bHFnIF6GyAnI5F
+sekellogger	postgres	QtteVzYpVBlzDVwLSEJm
+
+
+
+Env Name	Username	Creadential
+dashboardanalytics-stg	postgres	postgresadmin123
+dashboardbrand-stg	postgres	postgresadmin123
+dashboardstore-stg	postgres	postgresadmin123
+dashboardbrand-stg	postgres	postgresadmin123
+dashboard-strapi-stg	postgres	postgresadmin123
